@@ -1,0 +1,187 @@
+body{
+	background: url("../images/textured-light-brown-wallpaper.jpg");
+
+}
+
+h1{
+		color: #ffffff;
+		margin-left: 160px;
+		margin-top: -177px;
+		font-size: 38px;
+
+}
+
+.logo p{
+		margin-left: 165px;
+		margin-top: -30px;
+		font-size: 21px;
+		font-weight: lighter;
+
+}
+
+#items h1{
+		padding: 3px;
+		margin-left: 223px;
+		color: #301305;
+
+}
+
+.logo img{
+		margin-top: 60px;
+		margin-left: 35px;
+
+}
+
+#company p{
+		margin-left: 55px;
+		margin-top: -90px;
+		color: #301305;
+		font-size: 72px;
+
+}
+
+#me h1{
+		font-size: 30px;
+		text-transform: uppercase;
+		color: #ffffff;
+		margin-top: -305px;
+		float: right;
+		margin-right: 180px;
+
+}
+
+#me p{
+		float: right;
+		width: 450px;
+		margin-right: 41px;
+		margin-top: -265px;
+		color: #ffffff;
+		font-size: 15px;
+
+}
+
+section{
+		margin: 0 auto;
+		width: 960px;
+		margin-bottom: 25px;
+		background-color: #301305;
+
+}
+
+section.logo{
+		margin-top: -20px;
+		height: 700px;
+		margin-bottom: 200px;
+
+}
+
+section.one{
+		height: 850px;
+
+}
+
+section.two{
+		height: 900px;
+		
+}
+
+section.three{
+		height: 900px;
+
+}
+
+section.four{
+		height: 750px;
+
+}
+
+section.five{
+		height: 900px;
+
+}
+
+section.six{
+		height: 850px;
+
+}
+
+section.seven{
+		height: 850px;
+
+}
+
+section.eight{
+		height: 850px;
+
+}
+
+section.nine{
+		height: 850px;
+
+}
+
+section.ten{
+		height: 850px;
+
+}
+
+img{
+		margin-left: 35px;
+		margin-top: -10px;
+
+}
+
+h2{
+		margin-left: 35px;
+		color: #ffffff;
+		padding-top: 30px;
+
+}
+
+h4{
+		color: #ffffff;
+		margin-left: 35px;
+
+}
+
+p{
+		color: #ffffff;
+		margin-left: 35px;
+		font-size: 15px;
+		width: 895px;
+		
+}
+
+button{
+		background: #f8f0e3;
+		margin-left: 35px;
+		margin-top: 25px;
+		text-align: center;
+		width: 120px;
+		height: 35px;
+		
+}
+
+a{
+		text-decoration: none;
+		color: #301305;
+
+}
+
+a:hover{
+		color: #f8f0e3;
+
+}
+
+button:hover{
+		background: rgba(55,108, 38, 0.5);
+		
+
+}
+
+footer{
+		margin-top: 55px;
+		text-align: center;
+		color: #301305;
+
+}
