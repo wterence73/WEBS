@@ -164,7 +164,7 @@ button{
 
 a{
 		text-decoration: none;
-		color: #301305;
+		color: #f8f0e3;
 
 }
 
@@ -175,6 +175,7 @@ a:hover{
 
 button:hover{
 		background: rgba(55,108, 38, 0.5);
+		color: #f8f0e;
 		
 
 }
