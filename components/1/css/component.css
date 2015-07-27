@@ -1,0 +1,85 @@
+/** Beginning Css **/
+
+body{
+		background-color: #fff;
+
+}
+
+nav{
+		float: right;
+		margin-right: 180px;
+		margin-top: 50px;
+		
+}
+
+a{
+		text-decoration: none;
+		color: #7f7f7f;
+
+}
+
+ul:first-child:active{
+		background-color: #000;
+
+}
+
+li{
+		display: inline-block;
+		padding-right: 0;
+		padding: 0 10px;
+		width: 90px;
+		font-family: Trebuchet MS, sans serif;
+		font-size: 0.900em;
+		text-transform: uppercase;
+		text-align: center;
+		
+}
+
+
+header{
+		background: url("../images/bg.jpg");
+		background-repeat: no-repeat;
+		width: 1742px;
+		height: 800px;
+		margin-top: -9px;
+		margin-left: -325px;
+		overflow: hidden;
+
+}
+
+h1{
+		text-indent: -9999px;
+		background: url("../images/logo.png");
+		background-repeat: no-repeat;
+		margin-left: 460px;
+		margin-top: 400px;
+		padding: 50px;
+
+}
+
+article{
+		float: right;
+		width: 490px;
+		margin-right: 105px;
+		margin-top: -45px;
+		color: #afafaf;
+		line-height: 1.5em;
+		font: 16px;
+
+}
+
+p:first-child{
+		font-size: 48px;
+		font-family: Quicksand, sans serif;
+
+}
+
+span{
+		font-weight: bold;
+		color: #000;
+
+}
+
+
+
+
