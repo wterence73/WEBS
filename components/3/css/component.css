@@ -1,0 +1,68 @@
+/** Css Beginning **/
+
+body{
+		background: #000;
+}
+
+section{
+		background: #f0eddf;
+		margin: 0 auto;
+		margin-top: 120px;
+		width: 960px;
+		height: 650px;
+		text-align: center;
+}
+
+h1{
+		text-align: center;
+		font-size: 36px;
+		padding-top: 20px;
+}
+
+ul{
+		text-align: center;
+		margin-top: -15px;
+}
+
+li{
+		display: inline-block;
+}
+
+article{
+		width: calc(25% - 4rem);
+		margin: 0 1.7rem;
+		float: left;
+		display: inline-block;
+		padding: 2rem;
+}
+
+#para{
+		background: #f8f7f0;
+		width: 238px;
+		height: 230px;
+		color: ##8d867c;
+		margin-top: -10px;
+		padding: 5px;
+		border: 1px solid #bfb8aa;
+}
+
+p{
+		width: 200px;
+		margin-left: 20px;
+}
+
+#para li a{
+		display: inline-block;
+		float: left;
+		width: 2rem;
+		height: 2rem;
+		text-indent: -9999px;
+}
+
+a[href*="facebook"] {
+		background: url("../css/fa fa-facebook-square") no-repeat;
+
+}
+
+
+
