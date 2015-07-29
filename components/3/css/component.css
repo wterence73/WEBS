@@ -7,7 +7,7 @@ body{
 section{
 		background: #f0eddf;
 		margin: 0 auto;
-		margin-top: 120px;
+		margin-top: 50px;
 		width: 960px;
 		height: 650px;
 		text-align: center;
@@ -28,6 +28,15 @@ li{
 		display: inline-block;
 }
 
+.direction li{
+		font-size: 21px;
+		color: #8d867c;
+}
+
+.direction .active{
+	color: #52c4e8;
+}
+
 article{
 		width: calc(25% - 4rem);
 		margin: 0 1.7rem;
@@ -39,11 +48,17 @@ article{
 #para{
 		background: #f8f7f0;
 		width: 238px;
-		height: 230px;
-		color: ##8d867c;
+		height: 250px;
+		color: #8d867c;
 		margin-top: -10px;
 		padding: 5px;
 		border: 1px solid #bfb8aa;
+}
+
+h4{
+		color: #52c4e8;
+		font-size: 21px;
+		margin-bottom: -15px;
 }
 
 p{
@@ -51,17 +66,46 @@ p{
 		margin-left: 20px;
 }
 
-#para li a{
+#para ul{
+		width: 300px;
+		margin-left: -70px;
+}
+
+#para li{
 		display: inline-block;
-		float: left;
+		padding-top: 25px;
+}
+
+#para li a{
+		display: block;
 		width: 2rem;
 		height: 2rem;
 		text-indent: -9999px;
 }
 
 a[href*="facebook"] {
-		background: url("../css/fa fa-facebook-square") no-repeat;
+		background: url("../images/faa.png") no-repeat center;
+		background-size: 1.5rem;
+}
 
+a[href*="twitter"]{
+		background: url("../images/twitter.png") no-repeat center;
+		background-size: 1.5rem;
+}
+
+a[href*="google.com/+"]{
+		background: url("../images/google-black-logo-square.png") no-repeat center;
+		background-size: 2rem;
+}
+
+a[href*="linkedin"]{
+		background: url("../images/link.png") no-repeat center;
+		background-size: 2rem;
+}
+
+a[href*="#"]{
+		background: url("../images/email_icon.png") no-repeat center;
+		background-size: 2rem;
 }
 
 
