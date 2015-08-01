@@ -1,0 +1,35 @@
+/** Css Beginning **/
+
+html{
+		background: #ccc;
+}
+
+body{
+		background: url("../images/map.jpg");
+		height: 300px;
+		margin-top: 65px;
+
+}
+
+section{
+		text-align: center;
+}
+
+article{
+		display: inline-block;
+
+}
+
+#foot{
+		background: url("../images/pattern.png");
+		height:300px;
+		margin-top: 47px;
+}
+
+#foot::before{
+  content:url(images/foo_triangle.png);
+}
+
+figure{
+		padding: 55px;
+}
