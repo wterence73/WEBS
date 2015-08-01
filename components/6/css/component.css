@@ -27,7 +27,7 @@ color: #ffffff;
 
 ul{
 		list-style: none;
-		padding: 95px;
+		padding-left: 65px;
 		text-align: left;
 }
 
@@ -51,14 +51,24 @@ span{
   content:url(images/foo_triangle.png);
 }
 
-.media ul{
-		float: left;
-		width: 500px;
-
-}
-
 figure{
 		padding: 55px;
+}
+
+#media ul{
+		width: 300px;
+		margin-left: 5px;
+}
+
+#media li{
+		display: inline-block;
+}
+
+#media li a{
+		display: block;
+		width: 2rem;
+		height: 2rem;
+		text-indent: -9999px;
 }
 
 a[href*="facebook.com"] {
@@ -66,22 +76,22 @@ a[href*="facebook.com"] {
 		background-size: 1rem;
 }
 
-a[href*="http://www.google.com/"]{
-		background: url("../images/twitter-xxl.png") no-repeat center;
+a[href*="google.com/+"]{
+		background: url("../images/google-plus-512.png") no-repeat center;
 		background-size: 1rem;
 }
 
-a[href*="http://www.rss.com/"]{
+a[href*="rss.com"]{
+		background: url("../images/rss-512.gif") no-repeat center;
+		background-size: 1rem;
+}
+
+a[href*="pinterest.com"]{
+		background: url("../images/pinterest_grey.png") no-repeat center;
+		background-size: 1rem;
+}
+
+a[href*="linkedin.com"]{
 		background: url("../images/linkedin.png") no-repeat center;
-		background-size: 1rem;
-}
-
-a[href*="http://www.pinterest.com/"]{
-		background: url("../images/twitter-xxl.png") no-repeat center;
-		background-size: 1rem;
-}
-
-a[href*="http://www.linkedin.com/"]{
-		background: url("../images/twitter-xxl.png") no-repeat center;
 		background-size: 1rem;
 }
