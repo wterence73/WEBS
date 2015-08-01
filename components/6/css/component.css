@@ -17,12 +17,33 @@ section{
 
 article{
 		display: inline-block;
+		
 
+}
+
+p{
+color: #ffffff;
+}
+
+ul{
+		list-style: none;
+		padding: 95px;
+		text-align: left;
+}
+
+a{
+		color: #c2c2c2;
+		text-decoration: none;
+}
+
+span{
+		letter-spacing: 15px;
+		color: #c2c2c2;
 }
 
 #foot{
 		background: url("../images/pattern.png");
-		height:300px;
+		height: 300px;
 		margin-top: 47px;
 }
 
@@ -30,6 +51,37 @@ article{
   content:url(images/foo_triangle.png);
 }
 
+.media ul{
+		float: left;
+		width: 500px;
+
+}
+
 figure{
 		padding: 55px;
+}
+
+a[href*="facebook.com"] {
+		background: url("../images/facebook-512.png") no-repeat center;
+		background-size: 1rem;
+}
+
+a[href*="http://www.google.com/"]{
+		background: url("../images/twitter-xxl.png") no-repeat center;
+		background-size: 1rem;
+}
+
+a[href*="http://www.rss.com/"]{
+		background: url("../images/linkedin.png") no-repeat center;
+		background-size: 1rem;
+}
+
+a[href*="http://www.pinterest.com/"]{
+		background: url("../images/twitter-xxl.png") no-repeat center;
+		background-size: 1rem;
+}
+
+a[href*="http://www.linkedin.com/"]{
+		background: url("../images/twitter-xxl.png") no-repeat center;
+		background-size: 1rem;
 }
