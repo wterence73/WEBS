@@ -1,15 +1,16 @@
 /** Css Beginning **/
 
 body{
-		background: #ccc;
+		background: url("../images/map (1).png") no-repeat;
 }
 
 section{
-		background: rgba(255, 255, 255, 0.8);
-		width: 1400px;
+		background: rgba(119, 119, 119, 0.1);
+		width: 1425px;
 		height: 500px;
 		margin: 0 auto;
-		margin-top: 100px;
+		margin-left: -5px;
+		margin-top: 165px;
 }
 
 h2{
@@ -58,6 +59,7 @@ time p:last-child{
 
 a{
 		text-decoration: none;
+		color: #0099e6;
 }
 
 img{
@@ -78,6 +80,7 @@ blockquote{
 		text-align: center;
 		color: #fff;
 		margin-top: 30px;
+		line-height: 20px;
 }
 
 blockquote::after{
@@ -90,6 +93,12 @@ blockquote::after{
 		float: left;
 		margin-top: 5px;
 		margin-left: 20px;
+}
+
+blockquote span{
+		font-size: 37px;
+		padding: 10px;
+		line-height: 20px;
 }
 
 li{
