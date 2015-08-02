@@ -24,6 +24,7 @@ h2{
 article{
 		float: left;
 		width: 350px;
+		height: 200px;
 		margin-left: 75px;
 		margin-top: 50px;
 }
@@ -65,6 +66,8 @@ img{
 		background-color: #ddd;
    		border: 5px solid #fff;
    		border-radius: 4px;
+   		margin-top: 15px;
+   		margin-left: 7px;
 }
 
 blockquote{
@@ -75,6 +78,18 @@ blockquote{
 		text-align: center;
 		color: #fff;
 		margin-top: 30px;
+}
+
+blockquote::after{
+		content: "";
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 15px 15px 0 15px;
+		border-color: #0099e6 transparent transparent transparent;
+		float: left;
+		margin-top: 5px;
+		margin-left: 20px;
 }
 
 li{
