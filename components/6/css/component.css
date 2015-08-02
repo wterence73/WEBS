@@ -36,6 +36,10 @@ a{
 		text-decoration: none;
 }
 
+a:hover{
+		color: #f1bb40;
+}
+
 span{
 		letter-spacing: 15px;
 		color: #c2c2c2;
@@ -45,10 +49,6 @@ span{
 		background: url("../images/pattern.png");
 		height: 300px;
 		margin-top: 47px;
-}
-
-#foot::before{
-  content:url(images/foo_triangle.png);
 }
 
 figure{
