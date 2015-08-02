@@ -2,7 +2,6 @@
 
 body{
 		background: #ccc;
-
 }
 
 section{
@@ -10,24 +9,93 @@ section{
 		width: 1400px;
 		height: 500px;
 		margin: 0 auto;
-
+		margin-top: 100px;
 }
 
 h2{
 		width: 400px;
 		font-size: 30px;
-		margin-left: 150px;
-		padding-top: 50px;
 		font-weight: 200;
 		color: #1d2127;
 		font-family: open sans, arial, sans serif;
 		letter-spacing: -1px;
+}
 
+article{
+		float: left;
+		width: 350px;
+		margin-left: 75px;
+		margin-top: 50px;
+}
+
+#two{
+		margin-top: 135px;
+}
+
+time{
+		text-align: center;
+		margin-top: -20px;
+		float: left;
+		padding-right: 8px;
+}
+
+time p:first-child{
+		background: #fff;
+		width: 40px;
+		height: 25px;
+		padding-top: 12px;
+		color: #0099e6;
+}
+
+time p:last-child{
+		background: #0099e6;
+		width: 40px;
+		height: 20px;
+		color: #fff;
+		margin-top: -13px;
+}
+
+a{
+		text-decoration: none;
+}
+
+img{
+		width: 55px;
+		height: 55px;
+		background-color: #ddd;
+   		border: 5px solid #fff;
+   		border-radius: 4px;
+}
+
+blockquote{
+		width: 400px;
+		background: #0099e6;
+		padding: 5px;
+		border-radius: 5px;
+		text-align: center;
+		color: #fff;
+		margin-top: 30px;
+}
+
+li{
+		display: inline-block;
+		background: #ccc;
+		border-radius: 10px;
+		width: 10px;
+		height: 10px;
+		text-indent: -9999px;
+}
+
+.active{
+		background: #0099e6;
+}
+
+li:hover{
+		background: #0099e6;
 }
 
 span{
 		font-weight: bold;
-
 }
 
 
