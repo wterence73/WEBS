@@ -1,0 +1,61 @@
+/** Css Beginning **/
+
+body{
+		background: url("../images/background.jpg");
+}
+
+aside{
+		background: url("../images/bg.jpg") no-repeat;
+		width: 1631px;
+		height: 600px;
+		margin: 0 auto;
+		margin-left: -200px;
+		margin-top: 100px;
+}
+
+h1{
+		font-size: 75px;
+		color: #fff;
+		width: 500px;
+		text-align: center;
+		float: right;
+		margin-right: -300px;
+		margin-top: 100px;
+}
+
+img{
+		float: right;
+		margin-right: 300px;
+		margin-top: 60px;
+}
+
+h3{
+		color: #ffa800;
+		font-size: 30px;
+		font-family: pacifico-regular;
+		float: right;
+		margin-right: -460px;
+		margin-top: 270px;
+		text-align: center;
+}
+
+button{
+	float: right;	
+	color: #fff;
+	font-size: 18px;
+	width: 	200px;
+	height: 45px;
+	padding: 10px;
+	margin-right: -360px;
+	margin-top: 350px;
+	text-align: center;
+	background: transparent;
+	border-radius: 35px;
+	border-color: #fff;
+}
+
+button:hover{
+		background: #ffa800;
+		border-color: #ffa800;
+}
+
