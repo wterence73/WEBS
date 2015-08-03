@@ -59,3 +59,43 @@ button:hover{
 		border-color: #ffa800;
 }
 
+ul{
+		font-size: 2rem;
+		list-style: none;
+}
+
+a{
+		text-decoration: none;
+		color: #fff;
+}
+
+li{
+		text-align: center;
+		text-decoration: none;
+		padding: 2px;
+}
+
+li:first-child{
+		border-radius: 90px;
+		background-color: #ffa800;
+		border: 1px solid #fff;
+		float: left;
+		margin-left: 170px;
+		margin-top: 200px;
+		width: 40px;
+}
+
+li:last-child{
+		border-radius: 90px;
+		border: 1px solid #fff;
+		background-color: #ffa800;
+		float: right;
+		margin-right: -610px;
+		margin-top: 200px;
+		width: 40px;
+}
+
+li:hover{
+		opacity: 0.5;
+}
+
